@@ -51,31 +51,6 @@
 
 
 
-## Local Setup
-
-1. Clone the repository
-```bash
-    git clone https://gitlab.com/atharva25s/safe-upload-backend.git
-```
-- You will requiring only Extensions Directory
-
-2. On your browser search for
-```bash
-    chrome://extensions
-```
-
-3. Enable Developer Mode and `Load Unpacked` the entire Extensions Folder
-
-
-3. Pull the backend image from Docker
-```bash
-    docker run -d --name backend -p 8000:8000 atharva25s/safe-upload-backend:latest
-```
-
-- Backend will be available at
-`http://localhost:8000/predict`
-
-
 
 
 
